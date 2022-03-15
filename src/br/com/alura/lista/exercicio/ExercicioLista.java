@@ -3,7 +3,7 @@ package br.com.alura.lista.exercicio;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestandoLista {
+public class ExercicioLista {
 
     public static void main(String[] args) {
         List<String> cursosFavoritos = new ArrayList<>();
