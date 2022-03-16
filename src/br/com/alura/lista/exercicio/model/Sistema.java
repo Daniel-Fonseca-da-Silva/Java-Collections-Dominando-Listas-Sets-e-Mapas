@@ -31,4 +31,13 @@ public class Sistema {
     public void adiciona(Database databases) {
         this.databases.add(databases);
     }
+
+    @Override
+    public String toString() {
+        return "Sistema{" +
+                "nome='" + nome + '\'' +
+                ", versao='" + versao + '\'' +
+                ", databases=" + databases +
+                '}';
+    }
 }

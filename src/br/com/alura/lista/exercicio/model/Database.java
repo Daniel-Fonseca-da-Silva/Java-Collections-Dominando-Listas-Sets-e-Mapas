@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Database implements Comparable<Database>{
 
     private String name;
-    private LocalDate dataInicio;
+    private LocalDate dataInicio = LocalDate.now();
     private LocalDate dataFinal;
 
     public Database(String name, LocalDate dataInicio, LocalDate dataFinal) {
@@ -39,4 +39,5 @@ public class Database implements Comparable<Database>{
     public int compareTo(Database outraDatabase) {
         return name.compareTo(outraDatabase.getName());
     }
+
 }
